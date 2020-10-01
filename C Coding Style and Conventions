@@ -1,0 +1,42 @@
+int func(void);		// use void if there is no parameter is passing through the function
+
+int *i, *j			// use place the * close to the variable name not pointer type
+
+* typedef statement in header file to declare the type for other parts of the program
+
+* mystruct_val_type becomes the struct type
+
+* struct mystruct_struct becomes mystruct_type
+
+lib.c lib.h files should be in snake
+
+use underscore conventions
+
+int func() {
+	// declare functions like this	
+}
+
+if (soemthing) {
+	if (something) {
+		// always put braces even if it is single line
+	}
+}
+
+header comments
+
+/*
+ * concise description of what the corresponding function does
+ * explanation of each argument, explanation for the output of the function
+ */
+
+/*
+ * This function counts the number of instances of
+ * an int in an array.
+ *
+ * item - the int to be found in the array
+ * my_arr - the array to search in
+ * returns the number of times item appears in my_arr
+ */
+public int countSomeItem(int item, int *my_arr) {
+	...
+}

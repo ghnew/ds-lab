@@ -1,0 +1,36 @@
+# lib.h
+
+descibe what you are doing, describe about functions
+
+#ifndef DEQUE_H
+#define DEQUE_H
+
+write down the includes here
+
+
+desicribe each function (what it returs or what it manipulates)
+
+define fuction and typedef here
+
+#endif
+
+
+# lib.c
+
+include <lib.h> file
+
+write down the structures and functions here
+
+comment down if its a complex step and does need a little more understanding
+
+
+# main.c
+
+write down the driver program
+
+include "lib.h" file
+
+check all the functions here
+
+
+compile it with gcc main.c lib.c (that will work)
